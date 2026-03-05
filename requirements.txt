@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+psycopg2-binary
+python-dotenv
+langchain
+langchain-community
+langchain-openai
+faiss-cpu
+langchain-aws
