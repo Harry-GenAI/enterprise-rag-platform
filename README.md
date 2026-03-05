@@ -140,12 +140,15 @@ docker run -d -p 8000:8000 \
 -v ./faiss_index:/app/faiss_index \
 enterprise-rag
 ```
+![Docker Containers](docs/docker_running.png)
 
 ---
 
 # CI/CD Pipeline
 
 The system uses **GitHub Actions for automated deployment**.
+
+![CI/CD Pipeline](docs/cicd_pipeline.png)
 
 Pipeline flow:
 
@@ -174,7 +177,9 @@ Response
   "status": "Enterprise Bedrock RAG running"
 }
 ```
+### Running API on EC2
 
+![API Running](docs/api_running.png)
 ---
 
 # Features
